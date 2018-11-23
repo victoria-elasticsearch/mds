@@ -67,7 +67,7 @@ const NullScreen = (props) => {
         </div>
       }
       {props.type === 'view-mine-manager' &&
-        <div calssName='center'>
+        <div className='center'>
           <img src={GROUP_MINERS} />
           <h5>{String.NO_PREV_MINE_MANAGER}</h5>
         </div>
